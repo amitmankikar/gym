@@ -198,6 +198,13 @@ register(
     max_episode_steps=200,
 )
 
+register(
+    id='Robocup-v0',
+    entry_point='gym.envs.toy_text.robocup:RobocupEnv',
+    reward_threshold=100,
+    max_episode_steps=200,
+)
+
 # Mujoco
 # ----------------------------------------
 
